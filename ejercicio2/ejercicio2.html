@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+  <head lang="es" charset="utf-8">
+    <title>Examen</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="ejercicio2.js"></script>
+  </head>
+  <body>
+    <div class="peticion">
+      <div>
+        <label for="tipo">Pizzas</label>
+        <select id="tipo"></select>
+      </div>
+      <div class="opciones">
+        <label>Tamaño:</label>
+        <input type="radio" id="peq" value="peq" name="tam" /><label for="peq">Pequeña</label>
+        <input type="radio" id="med" value="med" name="tam" /><label for="med">Mediana</label>
+        <input type="radio" id="gra" value="gra" name="tam" /><label for="gra">Grande</label>
+      </div>
+      <div>
+        <label for="num">Cantidad</label>
+        <input type="number" min="1" max="9" id="num" />
+      </div>
+      <div>
+        <button id="add">Añadir a pedido</button>
+        <img src="bolsavacia.jpg" id="bolsa" />
+      </div>
+    </div>
+    <div>
+      <label for="pedido">Pizzas pedidas</label>
+      <select id="pedido" multiple></select>
+      <label>Total Pedido</label>
+      <input type="text" disabled id="total" value="0" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+button {
+  display: block;
+  width: 290px;
+  height: 97px;
+  font-size: 3em;
+}
+
+.contenedor div {
+  float: left;
+  width: 300px;
+  height: 400px;
+}
+
+select {
+  size: 10;
+  width: 290px;
+  height: 390px;
+}

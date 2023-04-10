@@ -1,0 +1,42 @@
+﻿button{
+	width:190px;
+	height:60px;
+	font-size:1.5em;
+	float:left;
+}
+
+#tipo{
+	width:100px;
+	height:100px;
+	margin-bottom:20px;
+}
+
+select{
+	size:10;
+	width:290px;
+	height:390px;
+	margin-bottom:20px;
+}
+
+div {
+	margin-bottom:20px;
+}
+
+#bolsa{
+	height:100px;
+	float:left;
+}
+
+body>div {
+	float:left;
+	margin:20px;
+}
+div>div{
+	display:block;
+}
+div>label{
+	display:block;
+}
+.opciones>label{
+	display:inline;
+}
